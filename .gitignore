@@ -1,0 +1,11 @@
+venv/
+raw_data/
+dataset/
+dataset_binary/
+dataset_bone_type/
+models/*.keras
+models/*.h5
+*.zip
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
