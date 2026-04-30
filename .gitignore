@@ -3,9 +3,14 @@ raw_data/
 dataset/
 dataset_binary/
 dataset_bone_type/
-models/*.keras
-models/*.h5
 *.zip
+*.keras
+*.h5
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+Bone_fracture_classification.ipynb
+train_model.py
+train_binary.py
+predict.py
+app.py
