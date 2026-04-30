@@ -1,24 +1,45 @@
-# AI Upper Limb X-ray Fracture Analyzer
+# AI Bone Fracture Classification Project
 
-## Overview
-AI system that detects bone fractures from X-ray images using MobileNetV2.
+## Project Overview
 
-## Features
-- Fracture detection (82% accuracy)
-- Drag & drop GUI (Streamlit)
-- Educational bone reference
-- Confidence score
+This project is an Artificial Intelligence / Machine Learning project for classifying bone X-ray images into:
 
-## Tech Stack
-- Python
-- TensorFlow (MobileNetV2)
-- Streamlit
+- **Fractured**
+- **Not Fractured**
 
-## Run
+The project follows a complete machine learning workflow, including dataset understanding, preprocessing, feature extraction, model training, model comparison, and evaluation.
 
-pip install -r requirements.txt
-python download_models.py
-streamlit run app_streamlit.py
+A simple Streamlit interface is also included to allow users to upload an X-ray image and get a prediction.
 
-## Note
-Educational AI prototype only. Not a medical diagnosis.
+---
+
+## Project Objective
+
+The main objective of this project is to apply machine learning techniques to a real-world medical image dataset and compare multiple models to determine the best-performing approach for bone fracture classification.
+
+The project covers:
+
+- Data understanding
+- Image preprocessing
+- Feature extraction
+- Training multiple machine learning models
+- Model evaluation using accuracy
+- Model comparison
+- Simple user interface for prediction
+
+---
+
+## Dataset
+
+The dataset contains X-ray images divided into two main classes:
+
+| Class | Number of Images |
+|---|---:|
+| Fractured | 7105 |
+| Not Fractured | 6918 |
+| Total | 14023 |
+
+The problem type is:
+
+```text
+Binary Classification

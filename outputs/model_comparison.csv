@@ -1,0 +1,4 @@
+model,accuracy,train_samples,test_samples,features_used
+Artificial Neural Network,94.8,11218,2805,10
+Decision Tree,84.56,11218,2805,10
+Naive Bayes,62.85,11218,2805,10
