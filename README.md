@@ -35,9 +35,9 @@ The dataset contains X-ray images divided into two main classes:
 
 | Class | Number of Images |
 |---|---:|
-| Fractured | 7105 |
-| Not Fractured | 6918 |
-| Total | 14023 |
+| Fractured | 657 |
+| Not Fractured | 439 |
+| Total | 1096 |
 
 The problem type is:
 
