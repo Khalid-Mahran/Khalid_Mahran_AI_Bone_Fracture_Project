@@ -1,8 +1,0 @@
-              precision    recall  f1-score   support
-
-   fractured       0.88      0.74      0.80       100
-      normal       0.78      0.90      0.83       100
-
-    accuracy                           0.82       200
-   macro avg       0.83      0.82      0.82       200
-weighted avg       0.83      0.82      0.82       200

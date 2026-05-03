@@ -15,3 +15,4 @@ train_binary.py
 predict.py
 app.py
 outputs/removed_other_bones_quarantine/
+venv/
