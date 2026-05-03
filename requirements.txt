@@ -1,7 +1,9 @@
-tensorflow
-pillow
-numpy
-matplotlib
 streamlit
 opencv-python
 scikit-learn
+pandas
+numpy
+matplotlib
+joblib
+pillow
+reportlab
